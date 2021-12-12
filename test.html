@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ 
+ <script src="hello.js"></script>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+<title>title</title>
+</head>
+
+<body>
+  <h1>Registration Form</h1>  
+  <form>
+   <label for="First-name">First-name</label>  
+   <input type="text" name="First-name" placeholder="enter your First-name" required>
+  
+   <label for="Last-name">Last-name</label>  
+   <input type="text" name="Last-name" placeholder=" Last-name" required>
+
+   <div>
+    <label for="Gender-Choice">Male</label>
+     <input type="radio" name="Gender-Choice" value="choice-1">
+
+     <label for="Gender-Choice">Female</label>
+     <input type="radio" name="Gender-Choice" value="choice-2">
+
+     <label for="Gender-Choice">Others</label>
+     <input type="radio" name="Gender-Choice" value="choice-3">
+
+   </div>
+
+
+   <div>
+         
+    <label for="email">Email</label>
+     <input type="email" name="email" placeholder="xyz@gamil.com">
+
+     <label for="Password">Password</label>
+     <input type="password" name="Password" >
+
+
+    </div>
+
+
+    <div>
+     <label for="Month">Birthday</label>
+     <select name="Month">
+         <option value="0" selected disabled>Month</option>
+         <option value="jan">January</option>
+         <option value="feb">febuary</option>
+         <option value="march">March</option>
+         <option value="April">April</option>
+      </select>
+
+    </div>
+       <div>
+         <label for="agree">i agree to all conditins of orems</label>  
+       <input type="checkbox" name="agree">
+
+       <button type="submit">Submit </button>
+
+
+       </div>
+
+  </form>
+
+
+</body>
+</html>
